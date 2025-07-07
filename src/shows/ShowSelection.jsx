@@ -10,7 +10,7 @@ export default function ShowSelection({
     <nav className="shows">
       {shows.map((show) => (
         <a
-          className={"show" + (show === selectedshow ? " selected" : "")}
+          className={"show" + (show === selectedShow ? " selected" : "")}
           key={show.name}
           onClick={() => setSelectedShow(show)}
         >
