@@ -18,7 +18,7 @@ export default function App() {
         <ShowSelection
           shows={shows}
           selectedShow={selectedShow}
-          setSelectedShow={setSelectedEpisode}
+          setSelectedShow={setSelectedShow}
         />
       </header>
       <main>
